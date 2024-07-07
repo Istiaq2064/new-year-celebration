@@ -12,10 +12,9 @@ body {
 
 
 .bannar-container {
-    width: 1020px;
+    max-width: 1320px;
     min-height: 600px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-top: 20px;
     background-image: url('../images/Banner\ Image.png');
     background-position: center;
@@ -36,11 +35,52 @@ body {
 .bannar-text p,h1{
     color: white;
 }
-p{
+bannar-text,p{
     font-size: 32px;
 }
-h1{
+bannar-text,h1{
     font-size: 72px;
     text-align: center;
 }
+
+
+/* Section comment */
+
+.section-container{
+    width: 802px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 92px;
+    
+}
+.second-title h2{
+    color: rgb(255, 0, 0);
+    font width:700px;
+    font-size: 88px;
+}
+.second-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.second-title p{
+    color: rgb(255, 0, 0);
+    font width:500px;
+    font-size: 24px;
+}
+.second-title h4{
+    color: rgb(67, 10, 10);
+    font width:700px;
+    font-size: 48px;
+}
+image-container{
+    width: 802px;
+    height: 500px;
+}
+.image-container img{
+    height: 100%;
+    weight:100% ;
+}
+
 
