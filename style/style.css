@@ -83,4 +83,58 @@ image-container{
     weight:100% ;
 }
 
+/* midnight-party-container style */
+.midnight-party-container{
+    height: 600px;
+    width: 1320px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    background-image: url('../images/Vectorrr.png');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    margin top:80px;
+    
+}
+
+.leftside-containt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;  
+}
+
+.leftside-containt h3{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 64px;
+}
+.leftside-containt p{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 30px;
+}
+
+#btn{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+.rightside-containt{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside-containt img{
+    height: 350px;
+    width: 464px;
+}
 
